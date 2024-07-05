@@ -24,6 +24,7 @@ public class Ticket {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private BigDecimal price;
+    private TicketStatus status;
     @ManyToOne
     private Event event;
     @JsonSerialize(using =  LocalDateTimeSerializer.class)

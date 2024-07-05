@@ -3,6 +3,7 @@ package org.africa.semicolon.eventbookingsystem.models;
 import jakarta.persistence.*;
 import lombok.*;
 
+import java.math.BigDecimal;
 import java.util.List;
 
 import static jakarta.persistence.GenerationType.IDENTITY;
@@ -23,6 +24,7 @@ public class Attendee {
     private String email;
     private String phoneNumber;
     private String password;
+    private BigDecimal discount;
     @OneToMany(fetch = FetchType.EAGER)
     private List<Ticket> tickets;
 
