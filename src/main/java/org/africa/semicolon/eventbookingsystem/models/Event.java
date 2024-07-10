@@ -27,6 +27,10 @@ public class Event {
     private Long id;
     private String name;
     private String description;
+    @Enumerated(EnumType.STRING)
+    private  Category  category;
+    @OneToOne
+    private Organizer organizer;
     @OneToOne
     private Venue venue;
     @JsonSerialize(using =  LocalDateSerializer.class)

@@ -25,6 +25,8 @@ public class Ticket {
     private Long id;
     private BigDecimal price;
     private TicketStatus status;
+    @Enumerated(EnumType.STRING)
+    private TicketCategory category;
     @ManyToOne
     private Event event;
     @JsonSerialize(using =  LocalDateTimeSerializer.class)

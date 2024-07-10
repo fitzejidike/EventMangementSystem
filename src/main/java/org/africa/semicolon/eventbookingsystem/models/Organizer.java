@@ -10,7 +10,7 @@ import java.util.List;
 
 @Setter
 @Getter
-@Builder
+@Entity
 public class Organizer {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -21,5 +21,6 @@ public class Organizer {
     private String userName;
     @OneToMany
     private List<Event> event;
+
 
 }
