@@ -1,7 +1,6 @@
-package org.africa.semicolon.eventbookingsystem.models;
+package org.africa.semicolon.eventbookingsystem.data.models;
 
 import jakarta.persistence.*;
-import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 

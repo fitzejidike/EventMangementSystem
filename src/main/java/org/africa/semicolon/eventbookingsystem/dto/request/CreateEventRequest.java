@@ -2,7 +2,7 @@ package org.africa.semicolon.eventbookingsystem.dto.request;
 
 import lombok.Getter;
 import lombok.Setter;
-import org.africa.semicolon.eventbookingsystem.models.Category;
+import org.africa.semicolon.eventbookingsystem.data.constants.Category;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -12,7 +12,7 @@ import java.time.LocalDateTime;
 public class CreateEventRequest {
     private String name;
     private Category category;
-    private Venue venue;
+    private String venue;
     private LocalDate date;
     private LocalDateTime StartTime;
 

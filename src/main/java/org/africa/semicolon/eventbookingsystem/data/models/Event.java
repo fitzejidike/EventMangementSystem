@@ -1,4 +1,4 @@
-package org.africa.semicolon.eventbookingsystem.models;
+package org.africa.semicolon.eventbookingsystem.data.models;
 
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
@@ -7,9 +7,9 @@ import com.fasterxml.jackson.datatype.jsr310.deser.LocalDateTimeDeserializer;
 import com.fasterxml.jackson.datatype.jsr310.ser.LocalDateSerializer;
 import com.fasterxml.jackson.datatype.jsr310.ser.LocalDateTimeSerializer;
 import jakarta.persistence.*;
-import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
+import org.africa.semicolon.eventbookingsystem.data.constants.Category;
 
 
 import java.time.LocalDate;
@@ -28,7 +28,7 @@ public class Event {
     private String name;
     private String description;
     @Enumerated(EnumType.STRING)
-    private  Category  category;
+    private Category category;
     @OneToOne
     private Organizer organizer;
 

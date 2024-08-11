@@ -1,4 +1,4 @@
-package org.africa.semicolon.eventbookingsystem.models;
+package org.africa.semicolon.eventbookingsystem.data.models;
 
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
@@ -8,6 +8,10 @@ import com.fasterxml.jackson.datatype.jsr310.ser.LocalDateSerializer;
 import com.fasterxml.jackson.datatype.jsr310.ser.LocalDateTimeSerializer;
 import jakarta.persistence.*;
 import lombok.*;
+import org.africa.semicolon.eventbookingsystem.data.constants.TicketCategory;
+import org.africa.semicolon.eventbookingsystem.data.constants.TicketStatus;
+import org.africa.semicolon.eventbookingsystem.data.models.Attendee;
+import org.africa.semicolon.eventbookingsystem.data.models.Event;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;

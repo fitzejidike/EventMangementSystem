@@ -2,7 +2,7 @@ package org.africa.semicolon.eventbookingsystem.dto.response;
 
 import lombok.Getter;
 import lombok.Setter;
-import org.africa.semicolon.eventbookingsystem.models.Attendee;
+import org.africa.semicolon.eventbookingsystem.data.models.Attendee;
 
 import java.util.List;
 

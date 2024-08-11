@@ -1,4 +1,4 @@
-package org.africa.semicolon.eventbookingsystem.models;
+package org.africa.semicolon.eventbookingsystem.data.constants;
 
 public enum Category {
     BUSINESS,

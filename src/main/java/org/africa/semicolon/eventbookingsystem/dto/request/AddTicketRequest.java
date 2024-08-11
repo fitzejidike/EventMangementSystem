@@ -2,7 +2,7 @@ package org.africa.semicolon.eventbookingsystem.dto.request;
 
 import lombok.Getter;
 import lombok.Setter;
-import org.africa.semicolon.eventbookingsystem.models.TicketCategory;
+import org.africa.semicolon.eventbookingsystem.data.constants.TicketCategory;
 
 import java.math.BigDecimal;
 

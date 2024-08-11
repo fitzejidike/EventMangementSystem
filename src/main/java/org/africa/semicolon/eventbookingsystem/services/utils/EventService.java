@@ -4,7 +4,7 @@ import org.africa.semicolon.eventbookingsystem.dto.request.GetEvenResponse;
 import org.africa.semicolon.eventbookingsystem.dto.request.RegisterEventRequest;
 import org.africa.semicolon.eventbookingsystem.dto.response.RegisterEventResponse;
 import org.africa.semicolon.eventbookingsystem.dto.response.SaveEventResponse;
-import org.africa.semicolon.eventbookingsystem.models.Event;
+import org.africa.semicolon.eventbookingsystem.data.models.Event;
 import org.springframework.stereotype.Service;
 
 @Service
