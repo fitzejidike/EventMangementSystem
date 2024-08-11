@@ -31,8 +31,8 @@ public class Event {
     private  Category  category;
     @OneToOne
     private Organizer organizer;
-    @OneToOne
-    private Venue venue;
+
+    private String venue;
     @JsonSerialize(using =  LocalDateSerializer.class)
     @JsonDeserialize(using = LocalDateDeserializer.class)
     private LocalDate date;

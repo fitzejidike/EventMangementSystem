@@ -4,7 +4,6 @@ import lombok.Getter;
 import lombok.Setter;
 import org.africa.semicolon.eventbookingsystem.models.Category;
 import org.africa.semicolon.eventbookingsystem.models.Organizer;
-import org.africa.semicolon.eventbookingsystem.models.Venue;
 
 @Setter
 @Getter

@@ -1,7 +1,7 @@
 package org.africa.semicolon.eventbookingsystem.models;
 
 public enum Category {
-BUSINESS,
+    BUSINESS,
     SPORTS,
     CHARITY,
     FOOD_DRINKS,

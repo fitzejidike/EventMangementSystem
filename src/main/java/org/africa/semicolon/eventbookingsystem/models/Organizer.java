@@ -21,6 +21,10 @@ public class Organizer {
     private String userName;
     @OneToMany
     private List<Event> event;
+    @OneToMany
+    private List<Ticket>tickets;
+    @OneToMany
+    private List<Attendee>attendees;
 
 
 }

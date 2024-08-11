@@ -3,8 +3,6 @@ package org.africa.semicolon.eventbookingsystem.dto.request;
 import lombok.Getter;
 import lombok.Setter;
 import org.africa.semicolon.eventbookingsystem.models.Category;
-import org.africa.semicolon.eventbookingsystem.models.Event;
-import org.africa.semicolon.eventbookingsystem.models.Venue;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;

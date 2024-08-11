@@ -2,7 +2,7 @@ package org.africa.semicolon.eventbookingsystem.models;
 
 public enum TicketStatus {
 
-    SOLDOUT,
+    SOLD_OUT,
     CONFIRMED,
     CANCELLED,
     EXPIRED,
